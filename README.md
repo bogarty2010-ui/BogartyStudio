@@ -1,3 +1,1 @@
 "# BogartyStudio"  
-"# BogartyStudio" 
-"# BogartyStudio"  
