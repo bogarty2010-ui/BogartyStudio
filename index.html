@@ -80,6 +80,26 @@
             height: 1px;
             background: linear-gradient(90deg, transparent, rgba(212, 175, 55, 0.4), transparent);
         }
+
+           /* Botón Dorado */
+        .btn-dorado {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: var(--dorado);
+            color: var(--negro);
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 50px;
+            transition: 0.3s ease;
+        }
+
+        .btn-dorado:hover {
+            background-color: var(--blanco);
+            box-shadow: 0 0 20px var(--dorado);
+        }
+        
     </style>
 </head>
 <body>
@@ -113,7 +133,7 @@
             debe proyectar el poder del grupo.
         </p>
         <div class="flex flex-col md:flex-row gap-4">
-            <a href="contactos" class="btn-trabajemos">Trabajemos juntos</a>
+            <a href="contactos" class="btn-dorado">Trabajemos juntos</a>
         </div>
     </section>
 
